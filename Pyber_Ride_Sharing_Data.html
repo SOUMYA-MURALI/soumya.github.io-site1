@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title> Pyber-Bootstrap Visualization Dashboard </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            
+    
+            <!--CSS Link-->
+            <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+
+    <body>
+            <!-- Navigation Section -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">HOME</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarColor02">
+                      <ul class="navbar-nav mr-auto">
+    
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Plots</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="Pyber_Ride_Sharing_Data.html">Pyber Ride Sharing Data</a>
+                                        <a class="dropdown-item" href="Total_Drivers_by_City.html">Total Drivers By City Type</a>
+                                        <a class="dropdown-item" href="Total_Fare_by_City.html">Total Fare By City Type</a>
+                                        <a class="dropdown-item" href="Total_Ride_by_City.html">Total Ride By City Type</a>
+                                 
+                                    </div>
+            
+
+                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="comparisons.html">Comparisons</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="city_data.html">City Data</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ride_data.html">Ride Data</a>
+                        </li>
+                      </ul>
+                      
+                    </div>
+                  </nav>
+
+
+            <!-- Content Section -->
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <!-- Left box  -->
+                            <div class="box" style="padding-bottom: 80px;">
+                                <h3 class="title">PYBER RIDE SHARE DATA</h3>
+                                <hr>
+                                <img src="images/Bubble_Plot.png" alt="Pyber Ride Sharing Data">
+                                <br>
+                                <br>
+                                <p>Bubble plot of Pyber ride sharing data is shown above.
+                                Bubble Plot that showcases the relationship between four key variables:
+
+                                        <p>1. Average Fare ($) Per City</p>
+                                        <p>2. Total Number of Rides Per City</p>
+                                        <p>3. Total Number of Drivers Per City</p>
+                                        <p>4. City Type (Urban, Suburban, Rural)</p>
+                                    
+                                <p>Total number of rides in urban cities are very high compared to suburban
+                                and rural cities but their average fare are relatively low.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">  
+                            <!-- Right Box -->
+                            <div class="box">
+                                <h3 class="title">Visualizations</h3>
+                                <hr>
+                                <div class="container">
+                                    <div class="row" style="padding-bottom: 30px;">
+                                        
+                                        <div class="col-6">
+                                            <a href="Pyber_Ride_Sharing_Data.html">
+                                                <img class="panel" src="images/Bubble_Plot.png" alt="Pyber Ride Sharing Data">
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="col-6">
+                                            <a href="Total_Drivers_by_City.html">
+                                                <img class="panel active" src="images/Total_Drivers_by_City.png" alt="Total Drivers By City Type">
+                                            </a>
+                                        </div>
+                                        
+                                    </div>  
+                                    <div class="row" style="padding-bottom: 30px;">
+                                        <div class="col-6">
+                                            <a href="Total_Fare_by_City.html">
+                                                <img class="panel" src="images/Total_Fare_by_City.png" alt="Total Fare By City Type">
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="Total_Ride_by_City.html">
+                                                <img class="panel" src="images/Total_Ride_by_City.png" alt="Total Ride By City Type">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Section -->
+                <footer>
+                    <div class="footer">Copyright &copy; Soumya Murali 2019</div>
+                </footer>
+        
+                
+            </body>
+        
+        </html>
+            

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pyber-Bootstrap Visualization Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+
+        <!--CSS Link-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+
+    <body>
+            <!-- Navigation Section -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">HOME</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarColor02">
+                      <ul class="navbar-nav mr-auto">
+        
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Plots</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="Pyber_Ride_Sharing_Data.html">Pyber Ride Sharing Data</a>
+                                        <a class="dropdown-item" href="Total_Drivers_by_City.html">Total Drivers By City Type</a>
+                                        <a class="dropdown-item" href="Total_Fare_by_City.html">Total Fare By City Type</a>
+                                        <a class="dropdown-item" href="Total_Ride_by_City.html">Total Ride By City Type</a>
+                                 
+                                    </div>
+                            </li>
+        
+                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="comparisons.html">Comparisons</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="city_data.html">City Data</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ride_data.html">Ride Data</a>
+                        </li>
+                      </ul>
+                      
+                    </div>
+                  </nav>
+        
+            <!-- Content Section -->
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-10" >
+                        <div class="box">
+                            <h3 class="title">PYBER COMPARISONS:- </h3>
+                            <p>
+                            Comparing Pyber Ride Sharing Data, Total Drivers by City Type, 
+                            Total Fare by City Type, Total Ride by City Type.
+                            <br>
+                            Click any plot to get an in-depth analysis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <div class="col-lg-4" style="padding-left: 10px;">
+                            <div class="box">
+                                <h5 class="title">Pyber Ride Sharing Data</h5>
+                                <a href="Pyber_Ride_Sharing_Data.html">
+                                    <img class="panel" src="images/Bubble_Plot.png"
+                                    alt="Pyber Ride Sharing Data">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="padding-left: 10px;">
+                            <div class="box">
+                                <h5 class="title">Total Drivers By City Type</h5>
+                                <a href="Total_Drivers_by_City.html">
+                                    <img class="panel" src="images/Total_Drivers_by_City.png"
+                                    alt="Total Drivers By City Type">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-lg-4" style="padding-left: 10px; padding-bottom: 80px;">
+                                <div class="box">
+                                <h5 class="title">Total Fare By City Type</h5>
+                                <a href="Total_Fare_by_City.html">
+                                    <img class="panel" src="images/Total_Fare_by_City.png"
+                                    alt="Total Fare By City Type">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="padding-left: 10px; padding-bottom: 80px;">
+                            <div class="box">
+                                <h5 class="title">Total Ride By City Type</h5>
+                                <a href="Total_Ride_by_City.html">
+                                    <img class="panel" src="images/Total_Ride_by_City.png"
+                                    alt="Total Ride By City Type">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Section -->
+            <footer>
+                <div class="footer">Copyright &copy; Soumya Murali 2019</div>
+            </footer>
+    
+            
+        </body>
+    
+    </html>
+    
+    
